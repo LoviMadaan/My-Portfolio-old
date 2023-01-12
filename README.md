@@ -28,7 +28,7 @@
 
 > This project includes html and css file from Figma design and linters.
 
-**[My Portfolio]** is my first project that includes linters.
+**[My Portfolio]** is my second project that includes linters.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,11 +58,11 @@
 
 > Clone this repository to your desired folder:
 
-- git clone https://github.com/LoviMadaan/Hello-World.git
+- git clone https://github.com/LoviMadaan/My-Portfolio.git
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name="Lovi MAdaan"></a>
 
 👤 **Lovi Madaan**
 
