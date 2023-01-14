@@ -118,14 +118,15 @@ ul {
   text-decoration: none;
 }
 
-.card-works {
+.works {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   gap: 7rem;
   width: 100%;
   background: #e5e5e5;
-  padding: 7rem 0;
+  padding: 7rem 0; 
+  border-color: rgb(35, 35, 35);
 }
 
 .card {
@@ -136,6 +137,7 @@ ul {
   box-sizing: border-box;
   width: 327px;
   height: 552px;
+  margin-top: 40px;
 
   /* Neutrals/N0 */
 
@@ -143,7 +145,7 @@ ul {
 
   /* Neutrals/N40 */
 
-  border: 1px solid #dfe1e6;
+  border: 2px solid #dfe1e6;
   border-radius: 16px;
 }
 
