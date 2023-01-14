@@ -133,14 +133,15 @@ ul {
   flex-direction: column;
   width: 90%;
   margin: 0 auto;
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding: 1rem;
   border-radius: 1rem;
 }
 
 .card-img img {
   width: 100%;
-  background: yellowgreen;
+  background: rgb(247, 248, 246);
+  border-radius: 3%;
 }
 
 .card-info {
@@ -166,21 +167,39 @@ ul {
   padding-bottom: 1rem;
 }
 
-.description {
+.header-details {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  padding: 0;
+  gap: 12px;
 }
 
-.description span {
-  width: 0.5rem;
-  height: 0.5rem;
+.header-details .client {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #172b4d;
+}
+
+.header-details .role,
+.header-details .year {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.seprator-circle {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
   border-radius: 50%;
-  background: red;
 }
 
 .card-para {
   padding-bottom: 1rem;
+  color: #344563;
+  padding-right:250%;
 }
 
 .card-langs {
@@ -190,10 +209,12 @@ ul {
   width: min-content;
   height: 4vh;
   margin-bottom: 1rem;
+  color: #6070FF;
+  font-size: 12px;
 }
 
 .card-langs li {
-  background: #7f8cff;
+  background: #EBEBFF;;
   border-radius: 0.5rem;
 
   /* padding: 0.4rem; */
@@ -209,6 +230,10 @@ ul {
   width: 40%;
 }
 
+.card-btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
 .header-details {
   display: flex;
   align-items: center;
@@ -305,6 +330,42 @@ ul {
   font-size: 20px;
   line-height: 24px;
   padding: 20px auto;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.language-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.skill-list {
+  padding: 12px;
+}
+
+.skill-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px auto;
+}
+
+.btn-chev {
+  border: none;
+  outline: none;
+  padding: 8px;
+  background: transparent;
+  cursor: pointer;
 }
 
 .language-list {
