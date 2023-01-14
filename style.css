@@ -230,8 +230,8 @@ ul {
   width: 40%;
 }
 
-.card-btn:hover {
-  background: #6070ff;
+.card-btn:active {
+  background: #2230d2;
   color: #fff;
 }
 
@@ -398,9 +398,7 @@ ul {
   font-style: normal;
   border: none;
   border-radius: 8px;
-  background: #fff;
-  color: #6070ff;
-  cursor: pointer;
+   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
@@ -410,7 +408,7 @@ ul {
   border: 1px solid #fff;
 }
 
-section {
+.section {
   display: grid;
   grid-template-columns: 1fr;
   padding: 114px 24px;
