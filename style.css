@@ -133,24 +133,25 @@ ul {
   flex-direction: column;
   margin: 0 auto;
   padding: 1rem;
-  border-radius: 1rem;
   box-sizing: border-box;
   width: 327px;
   height: 552px;
+
   /* Neutrals/N0 */
 
-  background: #FFFFFF;
-/* Neutrals/N40 */
+  background: #fff;
 
-  border: 1px solid #DFE1E6;
+  /* Neutrals/N40 */
+
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
-  }
+}
 
 .card-img img {
   width: 100%;
-  background: #DFE1E6;;
+  background: #fff;
   border-radius: 3%;
-  }
+}
 
 .card-info {
   height: 50vh;
@@ -355,7 +356,6 @@ ul {
   background-repeat: no-repeat;
   background-position: 160px 40px;
   border-top-left-radius: 60px;
-  align-items: flex-start
 }
 
 .contact-me h2 {
@@ -372,7 +372,6 @@ ul {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  align-items: flex-start
 }
 
 .contact-form {
