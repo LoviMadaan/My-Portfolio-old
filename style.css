@@ -302,6 +302,13 @@ ul {
 
 .about {
   border-top-right-radius: 60px;
+  align-content: center;
+  width: 80%;
+  display: flexbox;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 10%;
+  background-size: contain;
 }
 
 .skill-list {
