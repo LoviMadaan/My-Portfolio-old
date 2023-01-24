@@ -272,8 +272,8 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
-          <form class="contact-form" action="#" method="post">
-            <input type="text" name="name" placeholder="Your Name" required />
+          <form class="contact-form" action="" method="post">
+            <input type="text" name="name" placeholder="Your Name" minlength=3 maxlength=30 required />
             <input
               type="email"
               name="email"
@@ -285,6 +285,7 @@
               cols="30"
               rows="6"
               placeholder="Write your message here"
+              maxlength=500
               required
             ></textarea>
             <button class="btn-submit" type="submit">Get In Touch</button>
