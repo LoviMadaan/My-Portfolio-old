@@ -29,6 +29,7 @@ header {
   color: #6070ff;
   cursor: pointer;
   text-decoration: none;
+  animation: rotation 2s linear;
 }
 
 .menu-bar {
@@ -418,11 +419,17 @@ ul {
   border: none;
   background: #fff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  transition: text-align 5s ease-in-out 1s;
 }
 
 .contact-form textarea {
   resize: none;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  text-align: right;
 }
 
 .btn-submit {
@@ -447,4 +454,14 @@ ul {
   background: transparent;
   color: #fff;
   border: 1px solid #fff;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
