@@ -454,9 +454,9 @@ display: none;
 
 /* desktop devices */
 @media only screen and (min-width: 992px) {
-  .logo {
+  .header-title {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 20px;  
   }
 
   .menu-bar {
@@ -466,7 +466,7 @@ display: none;
   .navlink {
     display: flex;
     gap: 32px;
-    text-decoration: none;
+    text-decoration: none;    
   }
 
   .primary-menu {
@@ -477,5 +477,58 @@ display: none;
     font-size: 15px;
     line-height: 20px;
   }
+
+  .works {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 7rem;
+    width: 100%;
+    background: #e5e5e5;
+    padding: 4rem 0;
+    border-color: #E5E5E5;
+    background-size: contain;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0.2rem;
+  }
+
+  .card {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    padding: 24px;
+    width: 75%;
+    height: 100%;
+  }
+  
+  img-one {
+   direction: rtl;
+   
+   
+  }
+  
+  .card-info {
+    display: flex;
+  }
+  
+  .card-title {
+    font-family: sans-serif;
+    font-style: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    padding-bottom: 1rem;
+  }
+  
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
 
 }
