@@ -365,26 +365,20 @@ ul {
   background-repeat: no-repeat;
   background-position: 160px 40px;
   border-top-left-radius: 60px;
-
-  /* position: absolute;
-  width: 400px;
-  height: 650px;
-  left: auto; */
-
   margin: 50px auto;
-  padding: 20px;
+  padding: 2px;
   justify-content: center;
 }
 
 .contact-me .container {
-  width: 375px;
   margin: 50px auto;
   padding: 20px;
-  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-me h2 {
-  /* width: 801px; */
   margin-top: 24%;
   height: 48px;
   top: 5000px;
@@ -392,8 +386,6 @@ ul {
   font-weight: 700;
   font-size: 35px;
   line-height: 52px;
-  text-align: left;
-  margin-left: 15%;
   color: #fff;
   box-sizing: border-box;
 }
